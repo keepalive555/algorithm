@@ -1,15 +1,15 @@
 # Algorithm
 
 ## 排序算法
-- 冒泡排序
-- 选择排序
-- 插入排序
-- 快速排序
-- 堆排序
-- 希尔排序
-- 归并排序
-- K路归并排序
+- [冒泡排序](https://github.com/keepalive555/algorithm/blob/master/sort/bubble_sort.go)
+- [选择排序](https://github.com/keepalive555/algorithm/blob/master/sort/simple_selection_sort.go)
+- [插入排序](https://github.com/keepalive555/algorithm/blob/master/sort/insertion_sort.go)
+- [快速排序](https://github.com/keepalive555/algorithm/blob/master/sort/quick_sort.go)
+- [堆排序](https://github.com/keepalive555/algorithm/blob/master/sort/heap_sort.go)
+- [希尔排序](https://github.com/keepalive555/algorithm/blob/master/sort/shell_sort.go)
+- [归并排序](https://github.com/keepalive555/algorithm/blob/master/sort/merge_sort.go)
+- [K路归并排序](https://github.com/keepalive555/algorithm/blob/master/sort/k_merge_sort.go)
 
 ## 查找算法
-- 二分查找法
-- 跳表
+- [二分查找法](https://github.com/keepalive555/algorithm/blob/master/search/binary_search.go)
+- [跳表](https://github.com/keepalive555/algorithm/blob/master/search/skiplist.go)
