@@ -16,4 +16,4 @@
 - [位图](https://github.com/keepalive555/algorithm/blob/master/search/bitmap.go)
 
 ## 编码算法
-- [Varint编码](](https://github.com/keepalive555/algorithm/blob/master/codec/varint.go)
+- [Varint编码](https://github.com/keepalive555/algorithm/blob/master/codec/varint.go)
