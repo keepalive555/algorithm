@@ -13,3 +13,4 @@
 ## 查找算法
 - [二分查找法](https://github.com/keepalive555/algorithm/blob/master/search/binary_search.go)
 - [跳表](https://github.com/keepalive555/algorithm/blob/master/search/skiplist.go)
+- [位图](https://github.com/keepalive555/algorithm/blob/master/search/bitmap.go)
