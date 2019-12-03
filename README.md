@@ -2,6 +2,8 @@
 
 > 此工程用于记录笔者日常学习工作中常见数据结构与算法，采用Golang语言实现，方便Gopher学习查阅。
 
+---
+
 ## 排序算法
 - [冒泡排序](https://github.com/keepalive555/algorithm/blob/master/sort/bubble_sort.go)
 - [选择排序](https://github.com/keepalive555/algorithm/blob/master/sort/simple_selection_sort.go)
@@ -26,8 +28,6 @@
 - [中序遍历](https://github.com/keepalive555/algorithm/blob/master/tree/inorder_traversal.go)
 - [后序遍历](https://github.com/keepalive555/algorithm/blob/master/tree/postorder_traversal.go)
 
----
----
 ---
 
 # 联系方式
