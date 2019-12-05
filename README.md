@@ -28,6 +28,11 @@
 - [中序遍历](https://github.com/keepalive555/algorithm/blob/master/tree/inorder_traversal.go)
 - [后序遍历](https://github.com/keepalive555/algorithm/blob/master/tree/postorder_traversal.go)
 
+## LeetCode
+### 位运算标签
+- [UTF-8编码验证](https://github.com/keepalive555/algorithm/blob/master/leetcode/393.go)
+- [二进制表示中质数个计算置位](https://github.com/keepalive555/algorithm/blob/master/leetcode/762.go)
+
 ---
 
 # 联系方式
