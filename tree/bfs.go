@@ -13,27 +13,27 @@ type TreeNode struct {
 
 // 广度优先遍历，使用队列的数据结构
 func Bfs(root *TreeNode) []int {
-    order := []int{}
-    if root == nil {
-        return order
-    }
-    queue := []*TreeNode{root}
+	order := []int{}
+	if root == nil {
+		return order
+	}
+	queue := []*TreeNode{root}
 
-    for len(queue) > 0 {
-        // 队首出队
-        head := queue[0]
-        queue = queue[1:]
-        // 输出元素值
-        order = append(order, head.Val)
-        // 孩子节点入队
-        if head.Left != nil {
-            queue = append(queue, head.Left)
-        }
-        if head.Right != nil {
-            queue = append(queue, head.Right)
-        }
-    }
-    return order
+	for len(queue) > 0 {
+		// 队首出队
+		head := queue[0]
+		queue = queue[1:]
+		// 输出元素值
+		order = append(order, head.Val)
+		// 孩子节点入队
+		if head.Left != nil {
+			queue = append(queue, head.Left)
+		}
+		if head.Right != nil {
+			queue = append(queue, head.Right)
+		}
+	}
+	return order
 }
 
 // TODO: 需要根据数组建立二叉树的函数
@@ -70,6 +70,6 @@ func newTestTree() *TreeNode {
 }
 
 func main() {
-    order := Bfs(newTestTree())
-    fmt.Println(order)
+	order := Bfs(newTestTree())
+	fmt.Println(order)
 }

@@ -26,19 +26,19 @@ func PostorderTraversal(root *TreeNode) []int {
 			node = node.Left
 		}
 
-        // Peek栈顶元素（不出栈）
-        node = stack[len(stack)-1]
+		// Peek栈顶元素（不出栈）
+		node = stack[len(stack)-1]
 
-        // 右子树不存在或已被访问过则输出元素，并出栈
-        if node.Right == nil || node.Right == lastVisited {
-            order = append(order, node.Val)
-            // 栈顶元素出栈
-            stack = stack[:len(stack)-1]
-            lastVisited = node
-            node = nil
-        } else {
-            node = node.Right
-        }
+		// 右子树不存在或已被访问过则输出元素，并出栈
+		if node.Right == nil || node.Right == lastVisited {
+			order = append(order, node.Val)
+			// 栈顶元素出栈
+			stack = stack[:len(stack)-1]
+			lastVisited = node
+			node = nil
+		} else {
+			node = node.Right
+		}
 	}
 	return order
 }

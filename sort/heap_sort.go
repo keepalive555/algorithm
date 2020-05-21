@@ -61,8 +61,6 @@ func HeapSort(arrs []int) {
 
 func main() {
 	nums := []int{1, 9, 8, 7, 2, 3, 5, 6, 4, 0}
-	// nums := []int{1}
-	// nums := []int{}
 	HeapSort(nums)
 	fmt.Printf("nums=%+v\n", nums)
 }

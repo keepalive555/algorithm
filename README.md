@@ -28,6 +28,14 @@
 - [中序遍历](https://github.com/keepalive555/algorithm/blob/master/tree/inorder_traversal.go)
 - [后序遍历](https://github.com/keepalive555/algorithm/blob/master/tree/postorder_traversal.go)
 
+## 子串&子序列问题
+- [最长公共子序列]()
+- [最长公共子串]()
+- [最长递增子序列]()
+- [最大子序列之和]()
+- [最长回文子序列]()
+- [回文串个数]()
+
 ## LeetCode
 ### 位运算
 - [UTF-8编码验证](https://github.com/keepalive555/algorithm/blob/master/leetcode/393.go)

@@ -22,7 +22,7 @@ func PreorderTraversal(root *TreeNode) []int {
 	for node != nil || len(stack) > 0 {
 		// 遍历左子树直至左子树节点为nil，遍历的节点全部使用stack保存
 		for node != nil {
-            // 输出节点值
+			// 输出节点值
 			order = append(order, node.Val)
 			stack = append(stack, node)
 			node = node.Left
