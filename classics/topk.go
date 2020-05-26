@@ -54,12 +54,8 @@ func TopK(arrs []int, k int) []int {
 	// 求topk
 	for i := k; i < len(arrs); i++ {
 		if arrs[i] < arrs[0] {
-			// fmt.Printf("---------------------------------\n")
-			// fmt.Printf("DEBUG: %+v, %+v\n", arrs[i], arrs[0])
 			arrs[i], arrs[0] = arrs[0], arrs[i]
-			// fmt.Printf("After CHG: %+v, %+v\n", arrs[i], arrs[0])
 			HeapAdjust(arrs, 0, k)
-			// fmt.Printf("TopK: %+v\n", arrs[:k])
 		}
 	}
 	return arrs[:k]
