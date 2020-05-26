@@ -29,12 +29,15 @@
 - [后序遍历](https://github.com/keepalive555/algorithm/blob/master/tree/postorder_traversal.go)
 
 ## 子串&子序列问题
-- [最长公共子序列]()
-- [最长公共子串]()
-- [最长递增子序列]()
-- [最大子序列之和]()
+- [最长公共子序列](https://github.com/keepalive555/algorithm/blob/master/sequence/longest_common_subsequence.go)
+- [最长递增子序列](https://github.com/keepalive555/algorithm/blob/master/sequence/longest_palindromic_subsequence.go)
 - [最长回文子序列]()
+- [最大子序列之和]()
 - [回文串个数]()
+
+## 经典问题
+- [TopK问题](https://github.com/keepalive555/algorithm/blob/master/classics/topk.go)
+- [大文件排序](https://github.com/keepalive555/algorithm/blob/master/classics/big_data_sort.go)
 
 ## LeetCode
 ### 位运算
